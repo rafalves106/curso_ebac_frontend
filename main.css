@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #2f3640;
+    padding: 16px 0;
+    color: #f6f6f6;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color: #f6f6f6;
+    text-decoration: none;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    /* height: 180px;*/
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+section h2, .articles article {
+    margin-bottom: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.articles article a {
+    background-color: blue;
+    border-radius: 5px;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+
+.articles article p, .articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sports {
+    background-color: rgba(0, 255, 0, 0.1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#sports .articles article a {
+    background-color: green;
+}
+
+#sports .articles article a:hover {
+    background-color: rgb(3, 70, 3);
+    transition-duration: 0.3s;
+}
+
+#economy {
+    background-color: #f8f59f;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#economy .articles article a {
+    background-color: #ff9f1a;
+}
+
+#economy .articles article a:hover {
+    background-color: #a0620c;
+    transition-duration: 0.3s;
+}
+
+
+#entertainment {
+    background-color: rgba(51, 15, 133, 0.1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#entertainment .articles article a {
+    background-color: rgb(39, 11, 114);
+}
+
+#entertainment .articles article a:hover {
+    background-color: rgb(23, 6, 68);
+    transition-duration: 0.3s;
+}
+
+#tech {
+    background-color: rgba(197, 15, 173, 0.1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#tech .articles article a {
+    background-color: rgb(155, 28, 167);
+}
+
+#tech .articles article a:hover {
+    background-color: rgb(79, 12, 85);
+    transition-duration: 0.3s;
+}
